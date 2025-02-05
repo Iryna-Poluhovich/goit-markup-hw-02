@@ -4,21 +4,111 @@ body{
     font-weight: 400;
     color: #434455;
 }
-button{
-    cursor: pointer;
-}
+
 ul {
     list-style-type: none;
 }
-h1{
+.nav-heder {}
+
+.nav-heder-logo {
+    font-family: "Raleway", sans-serif;
         font-weight: 700;
-        font-size: 56px;
-        line-height: 1.07;
-        letter-spacing: 0.02em;
-        text-align: center;
-        color: #ffffff;
+        font-size: 18px;
+        line-height: 1.17;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+        color: #4d5ae5;
 }
-h2{ 
+
+.nav-heder-logo-studio {
+    font-family: "Raleway", sans-serif;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 1.17;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+        color: #2e2f42;
+}
+
+.nav-heder-item, .nav-heder-item-studio {
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        color: #2e2f42;
+        text-decoration: none;
+}
+
+.nav-heder-item-address{
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        color: #434455;
+        text-decoration: none;
+        }
+.nav-heder-item-studio:hover, .nav-heder-item-studio:focus {
+    color: #4d5ae5;}
+
+.nav-heder-item-studio:active{
+         text-decoration: underline;
+         color: #4d5ae5;}
+    
+.nav-heder-item:hover,.nav-heder-item:focus {
+      color: #4d5ae5;
+                }
+.nav-heder-item-address:hover, .nav-heder-item-address:focus {
+    color: #4d5ae5;
+}
+.title {
+    width: 1440px;
+    height: 600px;
+    background-color: #2e2f42;
+}
+
+.title-name {
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 1.07;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #fff;
+}
+
+.title-btn {
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+    background: #4d5ae5;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #fff;
+}
+
+.title-btn:hover, .title-btn:focus{
+    background-color: #404bbf;
+}
+
+.benefits {}
+
+.benefits-name {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;}
+
+.benefits-text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+.team {
+    background: #f4f4fd;
+}
+
+.team-name {
         font-weight: 700;
         font-size: 36px;
         line-height: 1.11;
@@ -26,63 +116,54 @@ h2{
         text-align: center;
         color: #2e2f42;
 }
-h3{
-        font-weight: 500;
-        font-size: 20px;
-        line-height: 1.2;
-        letter-spacing: 0.02em;
-        color: #2e2f42;
-}
-p{
-    font-weight: 400;
-        font-size: 16px;
-        line-height: 1.5;
-        letter-spacing: 0.02em;
-      }
-button{
-    border-radius: 4px;
-    padding: 16px 32px;
-    width: 169px;
-    height: 56px;
-    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
-    background: #4d5ae5;
-    color:#ffffff;
+
+.team-img {}
+
+.team-photo {}
+
+.team-img-name {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
     text-align: center;
-}
-a{
-    color: #2e2f42;
-text-decoration: none;
-}
-footer {
-    background-color: #2e2f42;
-    color: #ffffff;
-}
-button:hover,
-button:focus {
-    background-color: #404bbf;
-}
-a:hover,
-a:focus {
-    color: #404bbf;
-}
-button:active,
-a:active {
-    transform: scale(0.98);
-    background-color: #4d5ae5;}
-.title{
-    background-color: #2e2f42;
-}
-.team{
-    background-color: #f4f4fd;
-}
-span{
-    color: #2e2f42;
-}
-.studio{
-    text-transform: uppercase;
-.studio-web{
-    color: #4d5ae5;
-}
-.logo{
-    color: #ffffff;
-}
+    color: #2e2f42;}
+
+.team-img-text {font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    text-align: center;
+   }
+
+        .portfolio {}
+    
+        .portfolio-name {
+            font-weight: 700;
+            font-size: 36px;
+            line-height: 1.11;
+            letter-spacing: 0.02em;
+            text-align: center;
+            color: #2e2f42;
+        }
+    
+        .portfolio-list {}
+
+        .portfolio-img {}
+    
+        .portfolio-img-name {
+            font-weight: 500;
+            font-size: 20px;
+            line-height: 1.2;
+            letter-spacing: 0.02em;
+            color: #2e2f42;
+        }
+    
+        .portfolio-img-text {
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 1.5;
+            letter-spacing: 0.02em;
+        }
+    
+        
