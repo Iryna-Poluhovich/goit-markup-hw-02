@@ -48,15 +48,17 @@ a{
 
 .nav-link:hover,
 .nav-link:focus {
-    color: #4d5ae5;
+    color: #404bbf;
 }
 
 .nav-link:active {
     text-decoration: underline;
-    color: #4d5ae5;
+    color: #404bbf;
 }
 
-.contacts{}
+.contacts{
+         font-style: normal;
+}
 .contacts-list{}
 .contacts-item{}
 .contacts-link{
@@ -65,8 +67,7 @@ a{
         line-height: 1.5;
         letter-spacing: 0.02em;
         color: #434455;
-        font-style: normal;
-        }
+    }
    
 .contacts-link:hover, .contacts-link:focus {
     color: #4d5ae5;
