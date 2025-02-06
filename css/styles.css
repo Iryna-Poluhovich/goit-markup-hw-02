@@ -52,7 +52,7 @@ ul {
     color: #4d5ae5;
 }
 
-.nav-heder-item-address{
+.nav-heder-address{
         font-weight: 400;
         font-size: 16px;
         line-height: 1.5;
@@ -61,10 +61,7 @@ ul {
         font-style: normal;
         }
    
-.nav-heder-item:hover,.nav-heder-item:focus {
-      color: #404bbf;
-                }
-.nav-heder-item-address:hover, .nav-heder-item-address:focus {
+.nav-heder-address:hover, .nav-heder-address:focus {
     color: #4d5ae5;
 }
 .title {
@@ -76,7 +73,6 @@ ul {
     font-size: 56px;
     line-height: 1.07;
     letter-spacing: 0.02em;
-    text-align: center;
     color: #fff;
 }
 
@@ -119,7 +115,6 @@ ul {
         font-size: 36px;
         line-height: 1.11;
         letter-spacing: 0.02em;
-        text-align: center;
         color: #2e2f42;
 }
 
@@ -134,14 +129,12 @@ ul {
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
-    text-align: center;
     color: #2e2f42;}
 
 .team-img-text {font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    text-align: center;
     text-transform: capitalize;
    }
 
@@ -152,7 +145,6 @@ ul {
             font-size: 36px;
             line-height: 1.11;
             letter-spacing: 0.02em;
-            text-align: center;
             color: #2e2f42;
             text-transform: capitalize;
         }
