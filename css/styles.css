@@ -9,7 +9,11 @@ body{
 ul {
     list-style-type: none;
 }
-.nav-heder {}
+
+a{
+    text-decoration: none;
+}
+.header-nav {}
 
 .logo {
     font-family: "Raleway", sans-serif;
@@ -20,10 +24,8 @@ ul {
         text-transform: uppercase;
         color: #4d5ae5;
 }
-.logo-web{
-    text-decoration: none;
-}
-.logo-studio {
+
+.logo-part {
     font-family: "Raleway", sans-serif;
         font-weight: 700;
         font-size: 18px;
@@ -32,8 +34,10 @@ ul {
         text-transform: uppercase;
         color: #2e2f42;
 }
+.nav-list{}
 
-.nav-heder-item {
+.nav-item{}
+.nav-link {
     font-weight: 500;
         font-size: 16px;
         line-height: 1.5;
@@ -42,17 +46,20 @@ ul {
         text-decoration: none;
 }
 
-.nav-heder-item:hover,
-.nav-heder-item:focus {
+.nav-link:hover,
+.nav-link:focus {
     color: #4d5ae5;
 }
 
-.nav-heder-item:active {
+.nav-link:active {
     text-decoration: underline;
     color: #4d5ae5;
 }
 
-.nav-heder-address{
+.contacts{}
+.contacts-list{}
+.contacts-item{}
+.contacts-link{
         font-weight: 400;
         font-size: 16px;
         line-height: 1.5;
@@ -61,7 +68,7 @@ ul {
         font-style: normal;
         }
    
-.nav-heder-address:hover, .nav-heder-address:focus {
+.contacts-link:hover, .contacts-link:focus {
     color: #4d5ae5;
 }
 .title {
@@ -79,6 +86,7 @@ ul {
 
 .title-btn {
     background: #4d5ae5;
+    font-family: inherit;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
