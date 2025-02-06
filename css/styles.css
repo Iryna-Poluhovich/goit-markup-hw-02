@@ -3,6 +3,7 @@ body{
     font-size: 16px;
     font-weight: 400;
     color: #434455;
+    background-color: #FFFFFF;
 }
 
 ul {
@@ -10,7 +11,7 @@ ul {
 }
 .nav-heder {}
 
-.nav-heder-logo {
+.logo {
     font-family: "Raleway", sans-serif;
         font-weight: 700;
         font-size: 18px;
@@ -19,10 +20,10 @@ ul {
         text-transform: uppercase;
         color: #4d5ae5;
 }
-.nav-heder-logo-web{
+.logo-web{
     text-decoration: none;
 }
-.nav-heder-logo-studio {
+.logo-studio {
     font-family: "Raleway", sans-serif;
         font-weight: 700;
         font-size: 18px;
@@ -32,13 +33,23 @@ ul {
         color: #2e2f42;
 }
 
-.nav-heder-item, .nav-heder-item-studio {
-        font-weight: 500;
+.nav-heder-item {
+    font-weight: 500;
         font-size: 16px;
         line-height: 1.5;
         letter-spacing: 0.02em;
         color: #2e2f42;
         text-decoration: none;
+}
+
+.nav-heder-item:hover,
+.nav-heder-item:focus {
+    color: #4d5ae5;
+}
+
+.nav-heder-item:active {
+    text-decoration: underline;
+    color: #4d5ae5;
 }
 
 .nav-heder-item-address{
@@ -47,25 +58,17 @@ ul {
         line-height: 1.5;
         letter-spacing: 0.02em;
         color: #434455;
-        text-decoration: none;
+        font-style: normal;
         }
-.nav-heder-item-studio:hover, .nav-heder-item-studio:focus {
-    color: #4d5ae5;}
-
-.nav-heder-item-studio:active{
-         text-decoration: underline;
-         color: #4d5ae5;}
-    
+   
 .nav-heder-item:hover,.nav-heder-item:focus {
-      color: #4d5ae5;
+      color: #404bbf;
                 }
 .nav-heder-item-address:hover, .nav-heder-item-address:focus {
     color: #4d5ae5;
 }
 .title {
-    width: 1440px;
-    height: 600px;
-    background-color: #2e2f42;
+       background-color: #2e2f42;
 }
 
 .title-name {
@@ -85,6 +88,7 @@ ul {
     line-height: 1.5;
     letter-spacing: 0.04em;
     color: #fff;
+    cursor: pointer;
 }
 
 .title-btn:hover, .title-btn:focus{
@@ -119,7 +123,9 @@ ul {
         color: #2e2f42;
 }
 
-.team-img {}
+.team-img {
+    background-color: #FFFFFF;
+}
 
 .team-photo {}
 
@@ -136,6 +142,7 @@ ul {
     line-height: 1.5;
     letter-spacing: 0.02em;
     text-align: center;
+    text-transform: capitalize;
    }
 
         .portfolio {}
@@ -147,6 +154,7 @@ ul {
             letter-spacing: 0.02em;
             text-align: center;
             color: #2e2f42;
+            text-transform: capitalize;
         }
     
         .portfolio-list {}
@@ -169,8 +177,6 @@ ul {
         }
     
            .footer {
-            width: 1440px;
-            height: 312px;
             background-color: #2e2f42;
            }
     
